@@ -56,7 +56,7 @@ namespace Ejercicio5.Servicios
         /// 06/11/23 - sav
         /// </summary>
         /// <param name="mes"></param>
-        public void noBisiesto(int mes) 
+        private void noBisiesto(int mes) 
         {
             //este if compara la variable que se le a pasado "mes" con el mes numerico de aquellos que tienen 31 dias
             if (mes == 1 | mes == 3 | mes == 5 | mes == 7 | mes == 8 | mes == 10 | mes == 12)
@@ -82,7 +82,7 @@ namespace Ejercicio5.Servicios
         /// 06/11/23 - sav
         /// </summary>
         /// <param name="mes"></param>
-        public void bisiesto(int mes) 
+        private void bisiesto(int mes) 
         {
             //este if compara la variable que se le a pasado "mes" con el mes numerico de aquellos que tienen 31 dias
             if (mes == 1 | mes == 3 | mes == 5 | mes == 7 | mes == 8 | mes == 10 | mes == 12)

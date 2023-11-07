@@ -32,5 +32,9 @@ namespace Ejercicio5.Servicios
         /// </summary>
         /// <returns></returns>
         public int datoAnyo();
+
+
+        public bool seguir();
+
     }
 }

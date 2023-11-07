@@ -56,5 +56,27 @@ namespace Ejercicio5.Servicios
             //se devuelve el valor de anyo
             return dAnyo;
         }
+
+        public bool seguir()
+        {
+
+            bool opItro;
+            Console.WriteLine("si desea continuar pulse al tecla "+"s");
+            Console.WriteLine("si desea lair pulse cualquier otre tecla");
+            
+            string resul = Console.ReadLine();
+
+            if (resul == "s")
+            {
+                opItro = false;
+            }
+            else
+            {
+                opItro= true;
+            }
+
+            
+            return opItro;
+        }
     }
 }

@@ -48,16 +48,24 @@ namespace Ejercicio5.Controladores {
 
                     //continen los pasos de esta opcion 
                     case 1:
+                        bool seguir= false;
+                        while (!seguir)
+                        {
 
-                        //se llama al metodo datoMes
-                        int mes = mi.datoMes();
-                        //se llama al metod datoAnyo
-                        int anyo = mi.datoAnyo();
-                        //se llama al metod dias
-                        op.dias(mes, anyo);
+                            //se llama al metodo datoMes
+                            int mes = mi.datoMes();
 
-                        Console.WriteLine("");
+                            //se llama al metod datoAnyo
+                            int anyo = mi.datoAnyo();
 
+                            //se llama al metod dias
+                            op.dias(mes, anyo);
+
+                            Console.WriteLine("");
+
+                            //llamamos al metodo que nos mantendra o no dentro de la aplicacion
+                            seguir = mi.seguir();
+                        }
                     break;
 
                     default:
