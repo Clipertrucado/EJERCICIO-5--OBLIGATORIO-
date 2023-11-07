@@ -32,8 +32,12 @@ namespace Ejercicio5.Servicios
         /// </summary>
         /// <returns></returns>
         public int datoAnyo();
-
-
+        
+        /// <summary>
+        /// se pide un numero por panalla y se compara para saber si se sigue en la aplicacion o no 
+        /// 06/11/23
+        /// </summary>
+        /// <returns></returns>
         public bool seguir();
 
     }
